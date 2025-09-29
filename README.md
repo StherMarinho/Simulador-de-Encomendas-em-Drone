@@ -93,10 +93,10 @@ Esse processo garante que pedidos prioritários sejam alocados primeiro e que ca
 ## Banco de Dados
 
 A aplicação utiliza MySQL com a seguinte estrutura:
-
+```text
 CREATE DATABASE EntregasDrone;
 USE EntregasDrone;
-```text
+
 CREATE TABLE Drones (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
@@ -117,11 +117,11 @@ CREATE TABLE Pedidos (
 ## Configuração da conexão
 
 No arquivo appsettings.json:
-
+```text
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=EntregasDrone;Uid=SEU_USUARIO;Pwd=SUA_SENHA"
 }
-
+```
 Substitua SEU_USUARIO e SUA_SENHA pelas credenciais do banco de dados local.
 
 ---
@@ -165,23 +165,23 @@ https://localhost:7210/Drone
 
 * **POST cadastrar drone**
 https://localhost:7210/Drone
-
+```text
 {
   "nome": "Mavic 3.0",
   "distanciaMax": 6.0,
   "cargaMax": 20.0
 }
-
+```
 * **POST criar pedido**
 https://localhost:7210/Pedido
-
+```text
 {
   "Peso": 0.5,
   "ClienteX": 1,
   "ClienteY": 0,
   "Prioridade": 1
 }
-
+```
 * **GET listar pedidos**
 https://localhost:7210/Pedido
 
@@ -217,6 +217,7 @@ A elaboração desse case me impactou para além da oportunidade de participar d
 
 * Autor: Sther Marinho Brito
 * LinkedIn: https://www.linkedin.com/in/sther-marinho
+
 
 
 
