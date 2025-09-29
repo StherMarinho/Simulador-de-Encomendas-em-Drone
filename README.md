@@ -26,7 +26,7 @@ O objetivo é simular um sistema de entregas por drones em áreas urbanas, respe
 **Dados**
 
 * **MySQL**: banco de dados relacional para armazenar drones e pedidos.
-* **Dapper**: micro ORM utilizado para acesso direto ao banco, garantindo consultas SQL nativas e eficientes.
+* **Dapper**: utilizado para acesso direto ao banco, garantindo consultas SQL nativas e eficientes.
 
 **Controle de Versão e Colaboração**
 
@@ -217,6 +217,7 @@ A elaboração desse case me impactou para além da oportunidade de participar d
 
 * Autor: Sther Marinho Brito
 * LinkedIn: https://www.linkedin.com/in/sther-marinho
+
 
 
 
