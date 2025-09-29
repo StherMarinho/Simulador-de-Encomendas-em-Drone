@@ -42,50 +42,6 @@ O objetivo é simular um sistema de entregas por drones em áreas urbanas, respe
 
 A API foi organizada em camadas para facilitar manutenção e escalabilidade:
 
-# Simulador-de-Encomendas-em-Drone
-
-Este projeto foi desenvolvido como solução para o desafio técnico da **dti digital**.  
-O objetivo é simular um sistema de entregas por drones em áreas urbanas, respeitando regras de capacidade, distância e prioridade, e alocar os pedidos da forma mais eficiente possível.
-
----
-
-## Objetivo do Sistema
-
-* Gerenciar pedidos com informações de localização (X, Y), peso e prioridade.
-* Alocar pedidos em drones respeitando:
-  * Capacidade máxima (kg)
-  * Distância máxima (km)
-  * Priorização de entregas mais urgentes
-* Minimizar o número de viagens, buscando melhor aproveitamento da carga.
-
----
-
-## Tecnologias Utilizadas
-
-**Desenvolvimento**
-
-* **.NET 8 / C#**: base para a lógica de negócio, escolhido pela robustez e performance.
-* **ASP.NET Core Web API**: framework para construção dos endpoints RESTful.
-
-**Dados**
-
-* **MySQL**: banco de dados relacional para armazenar drones e pedidos.
-* **Dapper**: micro ORM utilizado para acesso direto ao banco, garantindo consultas SQL nativas e eficientes.
-
-**Controle de Versão e Colaboração**
-
-* **Git** e **GitHub**: versionamento do código e publicação do projeto.
-
-**Testes e Validação**
-
-* **Postman**: utilizado para validar manualmente os endpoints, simular cenários de pedidos e avaliar a qualidade da alocação antes da entrega.
-
----
-
-## Estrutura do Projeto
-
-A API foi organizada em camadas para facilitar manutenção e escalabilidade:
-
 ```text
 Simulador_de_Encomendas_em_Drone/
 │
@@ -261,4 +217,5 @@ A elaboração desse case me impactou para além da oportunidade de participar d
 
 * Autor: Sther Marinho Brito
 * LinkedIn: https://www.linkedin.com/in/sther-marinho
+
 
