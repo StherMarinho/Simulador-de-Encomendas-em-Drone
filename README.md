@@ -96,7 +96,7 @@ A aplicação utiliza MySQL com a seguinte estrutura:
 
 CREATE DATABASE EntregasDrone;
 USE EntregasDrone;
-
+```text
 CREATE TABLE Drones (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
@@ -113,7 +113,7 @@ CREATE TABLE Pedidos (
     DroneId INT,
     FOREIGN KEY (DroneId) REFERENCES Drones(Id)
 );
-
+```
 ## Configuração da conexão
 
 No arquivo appsettings.json:
@@ -217,5 +217,6 @@ A elaboração desse case me impactou para além da oportunidade de participar d
 
 * Autor: Sther Marinho Brito
 * LinkedIn: https://www.linkedin.com/in/sther-marinho
+
 
 
